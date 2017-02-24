@@ -321,20 +321,6 @@ section.team-leads{
 }
 
 @media(max-width:640px){
-  .col-3_md-12_sm-12{
-    text-align: left;
-    align-content: center;
-  }
-}
-
-@media(max-width:640px){
-  .col-2_md-12_sm-12{
-    align-content:center;
-    display: block;
-  }
-}
-
-@media(max-width:640px){
   .caption{
     text-align: center;
   }
@@ -349,5 +335,44 @@ section.team-leads{
   }
 }
 
+@media(max-width:640px){
+  .col-2_md-12_sm-12{
+    align-content:center;
+    display: block;
+  }
+}
+
+@media(max-width:640px){
+  .col-3_md-12_sm-12{
+    text-align: left;
+    align-content: center;
+  }
+}
+
+@media(max-width:640px){
+  .employee-info{
+    padding: 8%;
+  }
+}
+
+@media(max-width:640px){
+  .employee-photo{
+    align-content: center;
+    text-align: center;
+    padding: 5% 0 0 0;
+  }
+}
+
+@media(max-width:640px){
+  .specialties{
+    padding: 5%;
+  }
+}
+
+@media(max-width:640px){
+  .experiences{
+    padding: 5%;
+  }
+}
 
 /*Javascript*/
