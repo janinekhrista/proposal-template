@@ -1,3 +1,21 @@
+/*Table of Contents
+
+1. Reset
+2. Universal Items
+3. Header
+4. Our Commitment
+5. Navigation
+6. Team Leads
+7. Project Description
+8. Timeline
+9. Budget Charts
+10. Map
+11. Org Chart
+12. Footer
+
+*/
+
+
 /* --- Reset the browser page --- */
 *{
   margin: 0;
@@ -5,6 +23,152 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: pink;
+/* --- Universal Items --- */
+body{
+  color: #222222;
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFFFFF;
+}
+
+h1 {
+  color: #C41E3D;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: bold;
+}
+
+h2{
+  color: #E63946;
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  padding: 0 0 5% 0;
+}
+
+h3{
+  color: #222222;
+  font-family: 'Roboto', sans-serif;
+  color: #455556;
+}
+
+h4{
+  color: #222222;
+  font-weight: lighter;
+}
+
+
+/* --- Header --- */
+.logo {
+  text-align: right;
+}
+
+.our-commitment{
+  padding: 10%;
+  background-image: url(../images/header-photo.jpg);
+  background-position: right;
+  background-size: cover;
+}
+
+div.text-background{
+  color: #FFFFFF;
+  text-align: justify;
+  padding: 10%;
+}
+
+
+
+/* --- Our Commitment --- */
+
+
+
+
+/* --- Navigation --- */
+.nav-top{
+  text-align: center;
+  background-color: #E63946;
+}
+
+a{
+  font-style: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 1% 2%;
+  display: inline-block;
+}
+
+a:hover{
+  font-weight: 700;
+}
+
+
+
+/* --- Team Leads --- */
+.team-leads img{
+  border: 3px solid #E0E0E0;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.team-leads{
+  color: #283D3B;
+  text-align: center;
+  font-weight: lighter;
+  background-color: #FFFFFF;
+  display: inline-block;
+  padding: 2%;
+}
+
+
+/* --- Project Description --- */
+.proj-desc{
+
+}
+
+
+
+/* --- Timeline --- */
+
+
+
+
+/* --- Budget Charts --- */
+
+
+
+
+/* --- Map --- */
+
+
+
+
+/* --- Org Chart --- */
+
+
+
+
+/* --- Footer --- */
+.nav-bot{
+  text-align: right;
+  background-color: #E63946;
+  color: #FFFFFF;
+  padding: 3%;
+}
+
+.nav-bot h4{
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav-bot a{
+  color: #222222;
+  text-transform: none;
+  padding: 0;
+}
+
+a:hover{
+  font-weight: 700;
 }
