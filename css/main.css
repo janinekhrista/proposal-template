@@ -21,6 +21,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /*to do: delete this*/
+  border: 1px solid black;
 }
 
 /* --- Universal Items --- */
@@ -43,7 +45,7 @@ h2{
   font-size: 1.5rem;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
-  padding: 0 0 5% 0;
+  padding: 2% 0 0 0;
 }
 
 h3{
