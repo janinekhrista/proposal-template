@@ -86,10 +86,6 @@ a:hover{
 }
 
 /* --- Header --- */
-header{
-  min-height: 100vh;
-}
-
 .right-align {
   text-align: right;
 }
@@ -98,8 +94,9 @@ header{
   padding: 9%;
   background-image: url(../images/header-photo.jpg);
   background-position: right;
-  background-size: 100vw;
+  background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 div.text-background{
@@ -137,7 +134,7 @@ div.text-background{
 
 
 /* --- Team Leads --- */
-.team-members{
+.team-leads{
   background-color: #F2F3F1;
 }
 
@@ -145,11 +142,10 @@ section.team-leads{
   align: center;
 }
 
-.team-leads{
+.team-members{
   color: #283D3B;
   text-align: center;
   font-weight: lighter;
-  background-color: #FFFFFF;
   display: inline-block;
   padding: 2%;
 }
@@ -312,9 +308,46 @@ section.team-leads{
 
 
 /*Responsive Design*/
+@media(max-width:640px){
+  h1{
+    font-size: 1rem;
+  }
+}
 
+@media(max-width:640px){
+  h2{
+    font-size: 1rem;
+  }
+}
 
+@media(max-width:640px){
+  .col-3_md-12_sm-12{
+    text-align: left;
+    align-content: center;
+  }
+}
 
+@media(max-width:640px){
+  .col-2_md-12_sm-12{
+    align-content:center;
+    display: block;
+  }
+}
+
+@media(max-width:640px){
+  .caption{
+    text-align: center;
+  }
+}
+
+@media(max-width:640px){
+  .nav-top nav a{
+    margin: auto;
+    display: block;
+    font-size: 1em;
+    padding: 1%;
+  }
+}
 
 
 /*Javascript*/
