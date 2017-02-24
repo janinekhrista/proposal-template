@@ -72,6 +72,10 @@ h4{
   font-weight: lighter;
 }
 
+h3.col-12{
+  text-transform: uppercase;
+}
+
 img{
   max-width: 100%;
 }
@@ -138,23 +142,24 @@ div.text-background{
   background-color: #F2F3F1;
 }
 
-section.team-leads{
-  align: center;
+.team-leads h3{
+  padding: 2% 0 0 0;
+  text-align: center;
 }
 
-.team-members{
+.team-leads p{
   color: #283D3B;
   text-align: center;
   font-weight: lighter;
-  display: inline-block;
-  padding: 2%;
+  padding: 0 2% 2% 2%;
 }
 
-.team-leads img{
+.team-members img{
   border: 3px solid #E0E0E0;
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
+  display: inline-block;
 }
 
 
@@ -321,6 +326,12 @@ section.team-leads{
 }
 
 @media(max-width:640px){
+  p{
+    text-align: left;
+  }
+}
+
+@media(max-width:640px){
   .caption{
     text-align: center;
   }
@@ -331,7 +342,7 @@ section.team-leads{
     margin: auto;
     display: block;
     font-size: 1em;
-    padding: 1%;
+    padding: 2%;
   }
 }
 
