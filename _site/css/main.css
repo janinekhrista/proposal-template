@@ -1,5 +1,6 @@
 /*Table of Contents
 
+Main Page
 1. Reset
 2. Universal Items
 3. Header
@@ -13,6 +14,19 @@
 11. Org Chart
 12. Footer
 
+Resume
+13. Employee Info
+14. Specialties
+15. Experiences
+16. Involvement
+17. Related Members
+
+Responsive Design
+18. Responsive Design
+
+Javascript
+19. Javascript
+
 */
 
 
@@ -22,7 +36,7 @@
   padding: 0;
   box-sizing: border-box;
   /*to do: delete this*/
-  border: 1px solid black;
+  border: 0px solid black;
 }
 
 /* --- Universal Items --- */
@@ -45,7 +59,6 @@ h2{
   font-size: 1.5rem;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
-  padding: 2% 0 0 0;
 }
 
 h3{
@@ -59,17 +72,34 @@ h4{
   font-weight: lighter;
 }
 
+img{
+  max-width: 100%;
+}
+
+.logo{
+  height: 80px;
+  width: 80px;
+}
+
+a:hover{
+  font-weight: 700;
+}
 
 /* --- Header --- */
-.logo {
+header{
+  min-height: 100vh;
+}
+
+.right-align {
   text-align: right;
 }
 
 .our-commitment{
-  padding: 10%;
+  padding: 9%;
   background-image: url(../images/header-photo.jpg);
   background-position: right;
-  background-size: cover;
+  background-size: 100vw;
+  background-attachment: fixed;
 }
 
 div.text-background{
@@ -91,7 +121,7 @@ div.text-background{
   background-color: #E63946;
 }
 
-a{
+.nav-top a{
   font-style: normal;
   text-decoration: none;
   text-transform: uppercase;
@@ -100,18 +130,19 @@ a{
   display: inline-block;
 }
 
-a:hover{
+.nav-top a:hover{
   font-weight: 700;
 }
 
 
 
 /* --- Team Leads --- */
-.team-leads img{
-  border: 3px solid #E0E0E0;
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
+.team-members{
+  background-color: #F2F3F1;
+}
+
+section.team-leads{
+  align: center;
 }
 
 .team-leads{
@@ -123,54 +154,167 @@ a:hover{
   padding: 2%;
 }
 
+.team-leads img{
+  border: 3px solid #E0E0E0;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
 
 /* --- Project Description --- */
 .proj-desc{
-
+  padding: 5%;
 }
 
 
 
 /* --- Timeline --- */
-
+.timeline{
+  padding: 5%;
+}
 
 
 
 /* --- Budget Charts --- */
-
+.budget{
+  padding: 5%;
+}
 
 
 
 /* --- Map --- */
-
+.map{
+  padding: 5%;
+}
 
 
 
 /* --- Org Chart --- */
-
+.org-chart{
+  padding: 5%;
+}
 
 
 
 /* --- Footer --- */
 .nav-bot{
-  text-align: right;
   background-color: #E63946;
-  color: #FFFFFF;
+  color: #BDC3C7;
   padding: 3%;
+  text-align: right;
+  text-transform: lighter;
+
 }
 
 .nav-bot h4{
-  color: #FFFFFF;
+  color: #ECF0F1;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 .nav-bot a{
-  color: #222222;
-  text-transform: none;
-  padding: 0;
+  color: #FFFFFF;
+  padding: 1%;
 }
 
-a:hover{
-  font-weight: 700;
+.social-bot{
+  text-align: left;
 }
+
+.email{
+  padding: 0;
+  text-decoration: none;
+  font-style: italic;
+  font-size: 0.75rem;
+}
+
+
+/*Employee Info*/
+.employee-info{
+  padding: 3%;
+}
+
+.employee-photo img{
+  border: 3px solid #E0E0E0;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.employee-text{
+  padding: 2% 0 0 0;
+}
+
+
+/*Specialties*/
+.specialties{
+  background-color: #F2F3F1;
+  padding: 3%;
+}
+
+.specialties .col-3 h2{
+  text-align: left;
+}
+
+.specialties .col-3 h3{
+  text-align: center;
+}
+
+.specialties .col-3 h4{
+  padding: 0 0 20pt 0;
+  text-align: center;
+}
+
+.specialties .col-3 p{
+  padding: 0 4% 0 4%;
+  text-align: center;
+}
+
+/*Experiences*/
+.experiences{
+  padding: 3%;
+}
+
+
+/*Involvement*/
+.involvement{
+  padding: 3%;
+  text-align: center;
+}
+
+.div-border{
+  border: 0.5px solid #DCE0D9;
+  margin: 2%;
+  padding: 5%;
+}
+
+.div-border h3{
+  text-transform: uppercase;
+  padding: 0 0 2% 0;
+}
+
+
+/*Related Members*/
+.team, .team-members{
+  background-color: #F2F3F1;
+  padding: 3%;
+  display: inline-block;
+  text-align: center;
+}
+
+.team-members img{
+  border: 3px solid #E0E0E0;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+
+/*Responsive Design*/
+
+
+
+
+
+/*Javascript*/
