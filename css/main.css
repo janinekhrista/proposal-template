@@ -196,33 +196,56 @@ nav {
   text-transform: uppercase;
   color: #FFFFFF;
   padding: 1% 2%;
-  display: flex;
+  display: inline-block;
 }
 
 .nav-top a:hover{
   font-weight: 700;
+  background-color: #C41E3D;
 }
 
 /* Mobile nav button */
 .nav-button {
   display: none; /* hide button on desktops */
-
   background-color: transparent;
   border: none;
   color: #fff;
   font-size: 30px;
 }
+
+
 @media (max-width: 50em) {
 
   nav {
     position: relative;
   }
   .nav-button {
-    display: block; /* show button on mobile */
+    display: block;
+    padding: 1.5%; /* show button on mobile */
   }
+
+  .nav-button:hover {
+    background-color: #C41E3D; /* show button on mobile */
+  }
+
   header .nav-items {
-    display: none; /* hide menu on mobile */
+    display: none;
+    position: top;
+    width: 100%;
+    z-index: 10; /* hide menu on mobile */
   }
+  .nav-items a{
+    color: #222222;
+    padding: 2% 0 2% 5%;
+    display: block;
+    text-align: left;
+  }
+
+  .nav-items a:hover{
+    background-color: rgba(255,255,255,0.9);
+    color: #C41E3D;
+  }
+
   .mobile-nav-active .nav-items {
     display: block; /* show menu on menu button click */
     width: 100%;
@@ -230,6 +253,7 @@ nav {
     position: absolute;
     top: 60px; /* height of nav */
     right: 0;
+    background-color: rgba(255,255,255,0.7);
   }
 
 }
@@ -238,13 +262,17 @@ nav {
 /* --- Team Leads --- */
 .team-leads{
   background-color: #F2F3F1;
-  align-content: center;
+  text-align: center;
 }
 
 .team-leads h3{
   padding: 2% 0 0 0;
   text-align: center;
   text-transform: uppercase;
+}
+
+ch-item{
+  align: center;
 }
 
 /*HOVER EFFECT*/
@@ -503,6 +531,11 @@ nav {
 /*Involvement*/
 .involvement{
   padding: 3%;
+  text-align: center;
+}
+
+.involvement p{
+  padding: 1%;
   text-align: center;
 }
 
