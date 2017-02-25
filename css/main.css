@@ -178,6 +178,7 @@ div.text-background{
 .nav-top{
   text-align: center;
   background-color: #E63946;
+  position: relative;
 }
 
 .nav-top a{
@@ -192,7 +193,6 @@ div.text-background{
 .nav-top a:hover{
   font-weight: 700;
 }
-
 
 
 /* --- Team Leads --- */
@@ -334,16 +334,20 @@ div.text-background{
 
 /* --- Timeline --- */
 .timeline{
-  padding: 5%;
+  padding: 2% 5% 5% 5%;
 }
 
 
 
 /* --- Budget Charts --- */
 .budget{
-  padding: 5%;
+  padding: 3%;
+  background-color: #F2F3F1;
 }
 
+.budget h2, .budget p{
+  padding: 5%;
+}
 
 
 /* --- Map --- */
@@ -507,6 +511,13 @@ div.text-background{
   .col-3_md-12_sm-12{
     text-align: left;
     align-content: center;
+  }
+}
+
+@media(max-width:640px){
+  .our-commitment{
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 
