@@ -198,6 +198,7 @@ div.text-background{
 /* --- Team Leads --- */
 .team-leads{
   background-color: #F2F3F1;
+  align-content: center;
 }
 
 .team-leads h3{
@@ -207,11 +208,12 @@ div.text-background{
 }
 
 /*HOVER EFFECT*/
-.ch-grid
+.ch-grid {
 	margin: 20px 0 0 0;
 	padding: 0;
 	list-style: none;
 	display: block;
+  align: center;
   align-content: center;
 	text-align: center;
 	width: 100%;
@@ -296,9 +298,10 @@ div.text-background{
 	transform: scale(0);
 }
 
-.ch-info h3 {
+.ch-info h3, .ch-info a{
 	color: #fff;
 	text-transform: uppercase;
+  text-decoration: none;
 	letter-spacing: 0px;
 	font-size: 1rem;
 	margin: 0 30px;
@@ -321,7 +324,7 @@ div.text-background{
 	transition: all 1s ease-in-out 0.4s;
 }
 
-.ch-info p a {
+.ch-info p a{
 	display: block;
 	color: rgba(255,255,255,0.7);
 	font-style: normal;
