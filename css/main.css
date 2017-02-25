@@ -222,7 +222,7 @@ div.text-background{
 .ch-grid:after,
 .ch-item:before {
 	content: '';
-    display: table;
+  display: table;
 }
 
 .ch-grid:after {
@@ -254,8 +254,6 @@ div.text-background{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
-
 }
 
 .ch-img-2 {
@@ -313,46 +311,17 @@ div.text-background{
 		0 1px 2px rgba(0,0,0,0.3);
 }
 
-.ch-info p {
-	color: #fff;
-	padding: 10px 5px;
-	font-style: italic;
-	margin: 0 30px;
-	font-size: 12px;
-	border-top: 1px solid rgba(255,255,255,0.5);
-	opacity: 0;
-	transition: all 1s ease-in-out 0.4s;
-}
-
-.ch-info p a{
-	display: block;
-	color: rgba(255,255,255,0.7);
-	font-style: normal;
-	font-weight: 700;
-	text-transform: uppercase;
-	font-size: 9px;
-	letter-spacing: 1px;
-	padding-top: 4px;
-	font-family: 'Open Sans', Arial, sans-serif;
-}
-
-.ch-info p a:hover {
-	color: rgba(255,242,34, 0.8);
-}
-
 .ch-item:hover {
 	box-shadow:
 		inset 0 0 0 1px rgba(255,255,255,0.1),
 		0 1px 2px rgba(0,0,0,0.1);
+  padding: 0;
 }
 
 .ch-item:hover .ch-info {
 	transform: scale(1);
 	opacity: 1;
-}
-
-.ch-item:hover .ch-info p {
-	opacity: 1;
+  padding: 0;
 }
 
 
@@ -490,20 +459,8 @@ div.text-background{
 
 
 /*Related Members*/
-.team, .team-members{
-  background-color: #F2F3F1;
-  padding: 3%;
-  display: inline-block;
-  text-align: center;
-}
 
-.team-members img{
-  border: 3px solid #E0E0E0;
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-}
-
+/*See CSS style for .team-leads*/
 
 /*Responsive Design*/
 @media(max-width:640px){
@@ -575,6 +532,12 @@ div.text-background{
 
 @media(max-width:640px){
   .experiences{
+    padding: 5%;
+  }
+}
+
+@media(max-width:640px){
+  .involvement{
     padding: 5%;
   }
 }
