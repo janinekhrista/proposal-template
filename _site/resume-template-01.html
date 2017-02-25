@@ -21,13 +21,8 @@
   <!-- Link below from Gridlink http://gridlex.devlint.fr/ -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.2.4/gridlex.min.css">
 
-  <!-- Timeline Links -->
-  <link href="assets/sass/flik-timeline.min.css" rel="stylesheet" />
-  <link href="assets/css/magnific-popup.min.css" rel="stylesheet" />
-  <link href="assets/css/jquery.bxslider.min.css" rel="stylesheet" />
-
-
-  <!-- Place link to jQuery/Javascript here -->
+  <!-- Flik timeline -->
+  <link rel="stylesheet" type="text/css" href="css/flik-timeline.min.css">
 
 
   <!-- Place link to CSS on bottom ALWAYS! -->
@@ -188,14 +183,25 @@
     </div>
   </section>
 
-<!-- Place jQuery Library Script Link here -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</footer>
+
+
+    <!-- JS Scripts -->
+    <!-- Place jQuery Library Script Link here -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script tpye="type/javascript" src="scripts/jquery.bxslider.min.js"></script>
+<script tpye="type/javascript" src="scripts/flik-timeline-9.min.js"></script>
+
+
+<script>
+    $('.flik-timeline').flikScrollEffect();
+    $('.flik-slider-container .flik-slider').bxSlider();
+    flikScrollEffect($('.flik-timeline'));
+</script>
 
 <!-- Place Javascript Folder Link here -->
 <script tpye="type/javascript" src="scripts/main.js"></script>
-
-</footer>
-
 
   </body>
 
