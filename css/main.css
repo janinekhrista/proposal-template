@@ -64,7 +64,6 @@ h2{
 h3{
   color: #222222;
   font-family: 'Roboto', sans-serif;
-  color: #455556;
 }
 
 h4{
@@ -339,6 +338,11 @@ div.text-background{
 
 
 /* --- Timeline --- */
+.featured{
+  /*background-color: #E63946;
+  color: #FFFFFF;*/
+}
+
 .timeline{
   padding: 2% 5% 5% 5%;
 }
