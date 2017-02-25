@@ -51,8 +51,13 @@ $(document).ready(function() {
 			google.maps.event.trigger(map, "resize");
 			map.setCenter(center);
 		});
-	}
-	google.maps.event.addDomListener(window, 'load', initialize);
+	   }
+	  google.maps.event.addDomListener(window, 'load', initialize);
+
+    // Nav-top Jake
+    $('.nav-button').click(function() {
+      $('nav').toggleClass('mobile-nav-active');
+    });
 
 
   // Timeline
