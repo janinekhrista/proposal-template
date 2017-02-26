@@ -489,6 +489,10 @@ ch-item{
   background-color: #F2F3F1;
 }
 
+.bar-chart img{
+  height: auto;
+}
+
 .budget h2, .budget p{
   padding: 5%;
 }
@@ -515,6 +519,10 @@ ch-item{
 .org-chart{
   padding: 5%;
   text-align: center;
+}
+
+.org-chart img{
+  height: auto;
 }
 
 
