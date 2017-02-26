@@ -218,14 +218,17 @@ nav {
 
   nav {
     position: relative;
+    height: 60px;
   }
   .nav-button {
     display: block;
-    padding: 1.5%; /* show button on mobile */
+    padding: 1.5%;
+    height: 60px; /* show button on mobile */
   }
 
   .nav-button:hover {
-    background-color: #C41E3D; /* show button on mobile */
+    background-color: #C41E3D;
+    height: 60px; /* show button on mobile */
   }
 
   header .nav-items {
@@ -410,7 +413,63 @@ ch-item{
   padding: 2% 5% 5% 5%;
 }
 
+.flik-timeline-9 p{
+  color: #222222;
+  padding: 0 5% 0 0;
+}
 
+.flik-timeline-9 .event.box-1 .history-type .history-type-icon {
+  background: #E63946;
+}
+
+.flik-timeline-9 .event.box-1 .event-row-first .history-type-text {
+  color: #E63946;
+}
+
+.flik-timeline-9 .event.box-1 .event-content {
+  background-color: rgba(230, 57, 70, 0.2);
+}
+
+.flik-timeline-9 a {
+  color: #505050;
+  text-decoration: none;
+}
+
+.flik-timeline-9 .event.box-1 .event-row-second .answer-list li:after {
+    background: #E63946;
+}
+
+.flik-timeline-9 .event.box-2 .history-type .history-type-icon {
+    background: #505050;
+}
+
+.flik-timeline-9 .event.box-2 .event-row-first .history-type-text {
+    color: #505050;
+}
+
+.flik-timeline-9 .event.box-2 .event-content {
+    background-color: rgba(80, 80, 80, 0.2);
+}
+
+.flik-timeline-9 .event.box-2 .event-row-second .answer-list li:after {
+    background: #505050;
+}
+
+.flik-timeline-9 .event.box-3 .history-type .history-type-icon {
+    background: #F39C12;
+}
+
+.flik-timeline-9 .event.box-3 .event-row-first .history-type-text {
+    color: #F39C12;
+}
+
+.flik-timeline-9 .event.box-3 .event-content {
+    background-color: rgba(243, 156, 18, 0.2);
+}
+
+.flik-timeline-9 .event.box-3 .event-row-second .answer-list li:after {
+    background: #F39C12;
+}
 
 /* --- Budget Charts --- */
 .budget{

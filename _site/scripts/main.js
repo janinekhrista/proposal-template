@@ -16,7 +16,7 @@ $(document).ready(function() {
 	//Google Maps JS
 	//Set Map
 	function initialize() {
-			var myLatlng = new google.maps.LatLng(-8.620333, 115.139838);
+			var myLatlng = new google.maps.LatLng(32.717379, -117.160634);
 			var imagePath = 'http://m.schuepfen.ch/icons/helveticons/black/60/Pin-location.png'
 			var mapOptions = {
 				zoom: 11,
