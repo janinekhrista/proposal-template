@@ -99,6 +99,10 @@ div.text-background{
   padding: 5% 10% 10%;
 }
 
+.our-commitment{
+  overflow: hidden;
+}
+
 /*HOVER EFFECT*/
 .effect-ming {
 	background-image: url(/images/header-photo.jpg);
